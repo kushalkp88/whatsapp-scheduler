@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-node-sender",
+  "version": "1.0.0",
+  "description": "Send WhatsApp messages and images via whatsapp-web.js for automation",
+  "main": "send_message.js",
+  "type": "module",
+  "scripts": {
+    "send": "node send_message.js"
+  },
+  "author": "Kushal K P",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.76.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
